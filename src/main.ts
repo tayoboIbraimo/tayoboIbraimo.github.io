@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 });
 document.addEventListener("confirmPresence", () => {
-  const name = document.querySelector("#nome_do_cliente");
+  const name:Element|null = document.querySelector("#nome_do_cliente");
   // if name is empty alert por favor preecnha seu nome
   // else get value of this variable and send to this link: `https://api.whatsapp.com/send/?phone=258827378208&text=Ol%C3%A1%21+Eu%2C+${name}%2C+confirmo+minha+presen%C3%A7a+na+festa+de+anivers%C3%A1rio.&type=phone_number&app_absent=0`
   if (name?.value === "") {
