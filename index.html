@@ -17,7 +17,20 @@
     <meta property="og:locale:alternate" content="es_ES" />
   </head>
   <body class="bg-slate-900 text-rose-50">
+  <!--==================== Preloader Start ====================-->
+  <div id="preloader"
+       class="  fixed inset-0 flex items-center justify-center z-40 w-full bg-[#e7e8e8]/90 backdrop-blur-3xl">
+    <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-violet-700 "></div>
+    <img src="./src/ibr.webp" class="w-24 h-24 absolute" alt="">
+  </div>
+  <!--==================== Preloader End ====================-->
     <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/app.ts"></script>
+  <script>
+      window.addEventListener('load', () => {
+          const preloader = document.getElementById('preloader');
+          preloader.classList.add('hidden');
+      });
+  </script>
   </body>
 </html>
