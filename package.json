@@ -1,0 +1,21 @@
+{
+  "name": "ibraimo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "css": "tailwindcss -i ./src/style.css -o ./src/app.css --watch",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "flowbite": "^2.4.1",
+    "prettier": "^3.3.3"
+  }
+}
