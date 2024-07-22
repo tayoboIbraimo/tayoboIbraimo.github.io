@@ -20,8 +20,8 @@
               class="w-fit p-4 px-6 text-rose-800 flex flex-col bg-white justify-center items-center"
           >
             <span class="text-sm font-bold capitalize"> Agosto </span>
-            <span class="text-xl font-extrabold"> 20 </span>
-            <span class="text-xl font-extrabold"> 18:00 </span>
+            <span class="text-xl font-extrabold"> 26 </span>
+            <span class="text-xl font-extrabold"> Afterwork </span>
           </div>
           <div class="grid content-center mx-3 w-full space-y-1">
             <div class="inline-flex flex-col align-middle space-y-2">
@@ -41,7 +41,7 @@
               </span>
               <span
                   class="inline-flex flex-row align-middle text-sm text-white font-extrabold"
-              >Rua das Flores, 123</span
+              >Bairro soalpo - Bairro da EDM</span
               >
             </span>
             </div>
