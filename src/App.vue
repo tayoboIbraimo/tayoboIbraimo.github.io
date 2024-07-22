@@ -165,7 +165,7 @@ const confirmPresence = () => {
   if (!clientName.value) {
     showModal.value = true;
   } else {
-    window.open(`https://api.whatsapp.com/send/?phone=258827378208&text=Ol%C3%A1%21+Eu%2C+${encodeURIComponent(clientName.value)}%2C+confirmo+minha+presen%C3%A7a+na+festa+de+anivers%C3%A1rio.&type=phone_number&app_absent=0`);
+    window.open(`https://api.whatsapp.com/send/?phone=258827378208&text=Ol%C3%A1%21+Eu%2C+*${encodeURIComponent(clientName.value)}*%2C+confirmo+minha+presen%C3%A7a+na+festa+de+anivers%C3%A1rio.&type=phone_number&app_absent=0`);
   }
 };
 
