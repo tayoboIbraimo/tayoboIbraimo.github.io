@@ -19,7 +19,7 @@
           <div
               class="w-fit p-4 px-6 text-rose-800 flex flex-col bg-white justify-center items-center"
           >
-            <span class="text-sm font-bold capitalize"> Agosto </span>
+            <span class="text-sm font-bold capitalize"> Julho </span>
             <span class="text-xl font-extrabold"> 26 </span>
             <span class="text-xl font-extrabold"> Afterwork </span>
           </div>
